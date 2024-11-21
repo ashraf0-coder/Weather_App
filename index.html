@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather forecast</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <h1>Weather Dashboard</h1>
+    <div class="container">
+        <div class="weather-input">
+        <h3>Enter City Name</h3>
+        <input type="text" placeholder="E.g., Hargiesa, Borama, Burao" class="city-input">
+        <button class="search-btn">Search</button>
+        <div class="seperator"></div>
+        <button class="location-btn">Use Current Loacation</button>
+        </div>
+        <div class="weather-data">
+            <div class="current-weather">
+                <div class="details">
+                    <h2><span class="name">Hargiesa</span> <span class="date">Today</span></h2>
+                    <h4>Temperature: <span class="temp">20</span>°C</h4>
+                    <h4>Wind: <span class="wind">4.31</span> M/S</h4>
+                    <h4>Humidity: <span class="humidity">79</span>%</h4>
+                </div>
+                <div class="icon">
+                    <img src="https://openweathermap.org/img/wn/10d@4x.png" alt="weather-icon" class="weather-icon">
+                    <h4 class="description">Moderate Rain</h4>
+                </div>
+            </div>
+            <div class="days-forecast">
+                <h2>4-days Forecast</h2>
+                <ul class="weather-cards">
+                    <li class="card">
+                    <h3><span class="days-date">2024-11-19</span></h2>
+                        <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon" class="days-weather-icon">
+                    <h4>Temp: <span class="days-temp">20</span>°C</h4>
+                    <h4>Wind: <span class="days-wind">4.3</span> M/S</h4>
+                    <h4>Humidity: <span class="days-humidity">4</span>%</h4>
+                    </li>
+                    <li class="card">
+                    <h3><span class="days-date">2024-11-19</span></h2>
+                        <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon" class="days-weather-icon">
+                    <h4>Temp: <span class="days-temp">20</span>°C</h4>
+                    <h4>Wind: <span class="days-wind">4.3</span> M/S</h4>
+                    <h4>Humidity: <span class="days-humidity">4</span>%</h4>
+                    </li>
+                    <li class="card">
+                    <h3><span class="days-date">2024-11-19</span></h2>
+                        <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon" class="days-weather-icon">
+                    <h4>Temp: <span class="days-temp">20</span>°C</h4>
+                    <h4>Wind: <span class="days-wind">4.3</span> M/S</h4>
+                    <h4>Humidity: <span class="days-humidity">4</span>%</h4>
+                    </li>
+                    <li class="card">
+                    <h3><span class="days-date">2024-11-19</span></h2>
+                        <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon" class="days-weather-icon">
+                    <h4>Temp: <span class="days-temp">20</span>°C</h4>
+                    <h4>Wind: <span class="days-wind">4.3</span> M/S</h4>
+                    <h4>Humidity: <span class="days-humidity">4</span>%</h4>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
